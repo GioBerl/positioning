@@ -74,3 +74,53 @@ h1 {
     color: blue;
     border-style: dotted;
 }
+
+.contenitore-esercizio {
+    border: 1px solid black;
+    height: 500px;
+    position: relative;
+}
+
+.big1, .big2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+}
+
+.big2 {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+
+.little1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+.little2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+.little3 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+.little4 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    left: 15px;
+}
